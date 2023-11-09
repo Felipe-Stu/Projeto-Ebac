@@ -1,0 +1,252 @@
+header .cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-image: linear-gradient(to bottom, #252222, #838383);
+    padding-right: 70px;
+}
+
+header h1{
+    padding-left: 100px;
+}
+
+header h1{
+    color: white;
+    font-family: 'Bungee', sans-serif;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #000000, #5e5c5c);
+    position: absolute;
+}
+
+body p{
+    font-weight: bold;
+}
+
+body h2{
+    color:#000000;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+.caixa1 img {
+    padding-top: 20px;
+    padding-right: 16px;
+    float: left;
+    width: 500px;
+    height: 50%;
+}
+
+.caixa1 {
+    text-align: left;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .textoscorpo {
+    text-align: justify;
+    padding-top: 0px;
+}
+
+.imagem.img1 {
+    width: 7%;
+    height: 7%;
+    margin: 10px;
+}
+
+.imagem.img2 {
+    width: 6%;
+    height: 7%;
+    margin: 10px;
+    margin-left: -20px;
+}
+
+.imagem.img3 {
+    width: 3%;
+    height: 5%;
+    margin-top: 8px;
+    margin-left: -20px;
+}
+
+
+
+
+/*AQUI COMEÇA A PATE DE BAIXO, A DESPEDIDA, ONDE TEM OUTRAS REDES */
+
+
+
+#faleconosco {
+    padding-left: 100px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; /* Tamanho da fonte */
+    font-weight: normal; /* Peso da fonte (normal) */
+    color: #000000; /* Cor do texto */
+}
+
+.articles article {
+    display: contents;
+    border: solid black;
+}
+
+.articles {
+    display: flex;
+}
+
+/*BOTÃO*/
+.caixa {
+    width: 200px;
+    height: 175px;
+    resize: none;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.textos {
+    font-family: sans-serif;
+}
+
+
+
+#enviar{
+    width: 206px;
+    background-color: #5c6164;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+}
+
+#enviar:hover {
+    background-color: #000000;
+}
+
+/*FIM DO BOTÃO */
+
+
+
+/*SIGA NAS REDES SOCIAIS*/
+.redessociais{
+    padding-left: 150px;
+}
+
+.redessociais a{
+    display: inline;
+}
+
+.botaoyoutube {
+    background-image: url('./images/youtube.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 76px;
+    height: 45px;
+}
+
+.botaoyoutube i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.botaofacebook {
+    background-image: url('./images/facebook.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 27%;
+    height: 45px;
+}
+
+.botaofacebook i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.botaoinsta {
+    background-image: url('./images/instagram.png');
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+}
+
+.botaoinsta i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.botaotiktok {
+    background-image: url('./images/TikTok.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+}
+
+
+/*MAPS*/
+.endereçamento {
+    padding-left: 150px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; /* Tamanho da fonte */
+    font-weight: normal; /* Peso da fonte (normal) */
+    color: black; /* Cor do texto */
+}
+
+
+/*RODA PÉ*/
+.rodape {
+    background-image: linear-gradient(to bottom, #bdbcbc, #555454);
+    text-align: center;
+}
+
+
+
+
